@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import ProductList from './ProductList';
 
 describe('ProductList component', () => {
@@ -25,15 +25,15 @@ describe('ProductList component', () => {
       json: () => Promise.resolve({ products: mockProducts }),
     });
 
-    const { findByText } = render(<ProductList />);
+    render(<ProductList />);
 
-    const product1Title = await findByText('Product 1');
-    const product1Price = await findByText('price: 10');
-    const product1Description = await findByText('This is the first product');
+    const product1Title = await screen.findByText('Product 1');
+    const product1Price = await screen.findByText('price: 10');
+    const product1Description = await screen.findByText('This is the first product');
 
-    const product2Title = await findByText('Product 2');
-    const product2Price = await findByText('price: 20');
-    const product2Description = await findByText('This is the second product');
+    const product2Title = await screen.findByText('Product 2');
+    const product2Price = await screen.findByText('price: 20');
+    const product2Description = await screen.findByText('This is the second product');
 
     expect(product1Title).toBeInTheDocument();
     expect(product1Price).toBeInTheDocument();
