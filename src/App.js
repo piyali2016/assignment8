@@ -1,5 +1,5 @@
 import './App.css';
-import CouseList from './CouseList';
+import ProductList from './ProductList';
 
 function App() {
   return (
