@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import ProductList from './ProductList';
+import ProductList from './../component/ProductList';
 
 describe('ProductList component', () => {
   test('renders a list of products', async () => {
