@@ -1,0 +1,76 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "React Js",
+      "Description": "React JS Certification Training Course",
+      "img": "../../images/react.jpg"
+    },
+    {
+      "id": 2,
+      "title": "DevOps Certification",
+      "Description": "DevOps Certification Training Course",
+      "img": "../../images/devops.png"
+    },
+    {
+      "id": 3,
+      "title": "Microsoft Power BI",
+      "Description": "Microsoft Power BI Certification Training Course",
+      "img": "../../images/power.webp"
+    },
+    {
+      "id": 4,
+      "title": "ChatGPT Complete Course",
+      "Description": "ChatGPT Complete Course: Beginners to Advanced",
+      "img": "../../images/chatgpt.jfif"
+    }
+  ],
+  "enquires": [
+    {
+      "id": 1675790682956,
+      "coourseId": 1,
+      "name": "Piyali Saha",
+      "email": "piyali.saha1@tcs.com",
+      "comment": "Nice",
+      "courseName": "React"
+    },
+    {
+      "id": 1675955555017,
+      "name": "koushik",
+      "email": "739647@tcs.com",
+      "comment": "sdsdsd"
+    },
+    {
+      "id": 1675955587662,
+      "name": "koushik",
+      "email": "piyalisaha2006",
+      "comment": "sdsdsd"
+    },
+    {
+      "id": 1675955605041,
+      "name": "sdss",
+      "email": "saadsa",
+      "comment": "sdd"
+    },
+    {
+      "id": 1675955644097,
+      "name": "ssas",
+      "email": "piyalisaha2006",
+      "comment": "sdsdsd"
+    },
+    {
+      "id": 1675955690937,
+      "coourseId": 1,
+      "name": "koushik",
+      "email": "piyali.saha1@tcs.com",
+      "comment": "aaa",
+      "courseName": "React Js"
+    },
+    {
+      "id": 1675955703349,
+      "name": "aaa",
+      "email": "asasas@sdad.com",
+      "comment": "aa"
+    }
+  ]
+}
